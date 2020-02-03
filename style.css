@@ -17,11 +17,13 @@ body{
     display: flex;
     background: #fff;
     flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: flex-end;
 }
 
 .box{
     height: 100px;
-    flex-basis: 500px;
+    flex: 0 0 200px;
 }
 
 .one{
